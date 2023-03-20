@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Merriweather+Sans&family=Monofett&family=Oxanium&family=Squada+One&display=swap');
+
+.container_list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container_list h1{
+    margin: 20px 0;
+    color: #fff;
+    font-family: 'Oxanium',Arial, Helvetica, sans-serif;
+}
+.container_list h3{
+    color: #531771;
+    font-family: 'Oxanium',Arial, Helvetica, sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form textarea{
+    width: 450px;
+    background-color: #202024;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form .btn_register{
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #531771;
+    padding: 10px;
+    background-color: #531771;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+.form .btn_register:hover{
+    background-color: #121214;
+    border: 2px solid #531771;
+    color: #fff;
+}
+.article_tarefas{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    width:450px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.article_tarefas .buttons{
+    display: flex;
+}
+.article_tarefas p{
+    display: flex;
+    align-items: center;
+}
+.article_tarefas .buttons button{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.article_tarefas .buttons button:hover{
+    background-color: #ffffff0c;
+    border: 1px solid #531771;
+}
+.btn_logout{
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 2px 15px;
+    background-color: red;
+    border: none;
+    color: #fff;
+
+}
+@media screen and (max-width: 700px) {
+    .form textarea{
+        width: 320px;
+        font-size: 16px;
+    }
+    .form .btn_register{
+        font-size: 16px;
+    }
+    .article_tarefas{
+        width: 320px;
+        font-size: 16px;
+    }
+}
