@@ -1,6 +1,7 @@
 import './list.css'
 import { useEffect, useState } from 'react'
 import {AiOutlineCheck, AiOutlineEdit} from 'react-icons/ai'
+import {FiLogOut} from 'react-icons/fi'
 import {MdOutlineBallot} from 'react-icons/md'
 import { signOut } from 'firebase/auth'
 import { auth , db } from '../../../serviceFirebase'
@@ -126,7 +127,8 @@ export default function List(){
             ))}
             
 
-            <button className='btn_logout' onClick={signout} >Sair</button>
+            <button className='btn_logout' onClick={signout} title="Sair" ><FiLogOut/></button>
+
             
         </div>
     )

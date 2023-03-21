@@ -24,7 +24,7 @@
     font-weight: normal;
     font-size: 1.5em;
     text-transform: uppercase;
-    color: #531771;
+    color: #9129c5;
 
 }
 .container_login{
@@ -80,10 +80,24 @@
     text-align: center;
 }
 .container_login a {
-    color: #531771;
+    color: #9129c5;
     font-size: 15px;
     text-decoration: none;
     
+}
+footer{
+    text-align: center;
+    position: absolute;
+    padding: 0px;
+    color: #9129c5b9;
+    text-decoration: none;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer a{
+    color: #9129c5c5;
+    text-decoration: none;
 }
 @media screen and (max-width: 600px) {
     .container{

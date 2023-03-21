@@ -40,6 +40,7 @@ export default function Cadastro(){
                 <button onClick={registerUser}>Cadastre</button>
                 <p><Link to="/">Já tem uma conta? Conecte-se</Link></p>
             </div>
+            <footer>Created by <a href="https://github.com/pedrosrc" target="_blank"> Pedro Leonardo</a></footer>
         </div>
     )
 }

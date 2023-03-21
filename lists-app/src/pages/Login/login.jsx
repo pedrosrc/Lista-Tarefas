@@ -42,6 +42,7 @@ export default function Login(){
                 <button onClick={loginUser}>Entrar</button>
                 <p><Link to="/cadastro">Não tem uma conta ? Cadastre-se</Link></p>
             </div>
+            <footer>Created by <a href="https://github.com/pedrosrc" target="_blank"> Pedro Leonardo</a></footer>
         </div>
     )
 }

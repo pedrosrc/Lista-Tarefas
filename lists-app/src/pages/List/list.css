@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    overflow-x: hidden;
 }
 .container_list h1{
     margin: 20px 0;
@@ -12,7 +13,7 @@
     font-family: 'Oxanium',Arial, Helvetica, sans-serif;
 }
 .container_list h3{
-    color: #531771;
+    color: #9129c5;
     font-family: 'Oxanium',Arial, Helvetica, sans-serif;
 }
 .form{
@@ -77,13 +78,20 @@
     border: 1px solid #531771;
 }
 .btn_logout{
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    margin-top: 40px;
-    padding: 2px 15px;
-    background-color: red;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #242424;
     border: none;
     color: #fff;
-
+    border-radius: 50%;
+    transition: .3s;
+}
+.btn_logout:hover{
+    background-color: red;
 }
 @media screen and (max-width: 700px) {
     .form textarea{
