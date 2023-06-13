@@ -12,6 +12,8 @@
   <li>HTML, CSS</li>
   <li>JavaScript</li>
   <li>ReactJS</li>
+  <li>Firebase</li>
+                                                                                       
 </ul>
 <h2>Métodos Usados:</h2>
 <ul>
