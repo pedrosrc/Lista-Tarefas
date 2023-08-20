@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
-serviceFirebase.jsx
+*serviceFirebase.jsx
 dist-ssr
 *.local
 
